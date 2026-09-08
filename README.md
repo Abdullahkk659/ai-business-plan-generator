@@ -2,7 +2,7 @@
 
 An AI-powered web app that turns a few structured inputs about a business idea into a complete, investor-ready business plan — generated section by section, with computed financials and one-click PDF export.
 
-🔗 **[Live Demo](https://your-app.vercel.app)** · Built with React, Firebase, and the Anthropic API.
+🔗 **[Live Demo]([https://your-app.vercel.app](https://ai-business-plan-generator-six.vercel.app/dashboard))** · Built with React, Firebase, and the Anthropic API.
 
 ---
 
