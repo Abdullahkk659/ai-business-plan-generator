@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* ===== Bold & Premium Design System ===== */
+
+/* Gradient page background — deep, rich, premium feel */
+.page-bg {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%);
+}
+
+/* Frosted-glass card — the signature "premium" look */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Solid white card for content that needs readability (plan sections) */
+.card-solid {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Primary button — gradient, glows on hover */
+.btn-primary {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.75rem;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.6);
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+  transform: none;
+  cursor: not-allowed;
+}
+
+/* Secondary / ghost button */
+.btn-ghost {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-weight: 500;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.2s ease;
+}
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Premium input field */
+.input-premium {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: white;
+  transition: all 0.2s ease;
+}
+.input-premium::placeholder { color: rgba(255, 255, 255, 0.4); }
+.input-premium:focus {
+  outline: none;
+  border-color: #a855f7;
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.25);
+}
+
+/* Big gradient headline text */
+.headline {
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffffff 0%, #c7d2fe 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
+}
+
+/* Subtle label text on dark bg */
+.label-dark { color: rgba(255, 255, 255, 0.6); }
